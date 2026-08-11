@@ -1,0 +1,5 @@
+﻿"Outcome","Valid_n","W","p_value","p_value_display"
+"Perceived importance of ecosystem services",1087,0.9257,9.285275654301883e-23,"<0.001"
+"Perceived restoration implementation",858,0.9948,0.004978310265184624,"0.005"
+"Expected restoration outcomes",873,0.9819,6.078029868200511e-9,"<0.001"
+"Public support for restoration",1076,0.9782,1.2290074046061826e-11,"<0.001"

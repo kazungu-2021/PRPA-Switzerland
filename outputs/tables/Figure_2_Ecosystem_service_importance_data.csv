@@ -1,0 +1,41 @@
+﻿"Item","Response_category","n","Valid_n","Percent"
+"Food, medicinal plants and ornamental products","Very low",43,1087,3.955841766329347
+"Food, medicinal plants and ornamental products","Low",100,1087,9.19963201471941
+"Food, medicinal plants and ornamental products","Moderate",261,1087,24.011039558417664
+"Food, medicinal plants and ornamental products","High",328,1087,30.174793008279668
+"Food, medicinal plants and ornamental products","Very high",355,1087,32.65869365225391
+"Wood production","Very low",37,1087,3.4038638454461823
+"Wood production","Low",62,1087,5.703771849126035
+"Wood production","Moderate",227,1087,20.883164673413063
+"Wood production","High",366,1087,33.67065317387304
+"Wood production","Very high",395,1087,36.33854645814167
+"Water purification","Very low",15,1087,1.3799448022079117
+"Water purification","Low",31,1087,2.8518859245630175
+"Water purification","Moderate",155,1087,14.259429622815087
+"Water purification","High",322,1087,29.622815087396503
+"Water purification","Very high",564,1087,51.88592456301748
+"Temperature regulation","Very low",16,1087,1.4719411223551058
+"Temperature regulation","Low",32,1087,2.9438822447102115
+"Temperature regulation","Moderate",132,1087,12.143514259429622
+"Temperature regulation","High",294,1087,27.04691812327507
+"Temperature regulation","Very high",613,1087,56.39374425022999
+"Protection against natural hazards","Very low",9,1087,0.827966881324747
+"Protection against natural hazards","Low",28,1087,2.5758969641214353
+"Protection against natural hazards","Moderate",149,1087,13.707451701931923
+"Protection against natural hazards","High",294,1087,27.04691812327507
+"Protection against natural hazards","Very high",607,1087,55.841766329346825
+"Leisure and recreation","Very low",9,1087,0.827966881324747
+"Leisure and recreation","Low",31,1087,2.8518859245630175
+"Leisure and recreation","Moderate",113,1087,10.395584176632935
+"Leisure and recreation","High",303,1087,27.874885004599815
+"Leisure and recreation","Very high",631,1087,58.04967801287948
+"Habitat for biodiversity","Very low",7,1087,0.6439742410303588
+"Habitat for biodiversity","Low",21,1087,1.9319227230910763
+"Habitat for biodiversity","Moderate",81,1087,7.451701931922723
+"Habitat for biodiversity","High",200,1087,18.39926402943882
+"Habitat for biodiversity","Very high",778,1087,71.57313707451702
+"Air purification","Very low",6,1087,0.5519779208831647
+"Air purification","Low",18,1087,1.655933762649494
+"Air purification","Moderate",84,1087,7.727690892364305
+"Air purification","High",177,1087,16.283348666053357
+"Air purification","Very high",802,1087,73.78104875804968

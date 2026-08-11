@@ -1,0 +1,23 @@
+﻿"Explanatory_variable","Category","n"
+"Gender","Female",547
+"Gender","Male",540
+"Education_group","Professional/vocational training",606
+"Education_group","School-level or other education",116
+"Education_group","University",365
+"Forest_visit_group","Less than monthly",251
+"Forest_visit_group","Monthly",434
+"Forest_visit_group","Weekly or more often",402
+"Travel_time_group","10–30 minutes",510
+"Travel_time_group","More than 30 minutes",104
+"Travel_time_group","Under 10 minutes",473
+"Restoration_awareness","No",798
+"Restoration_awareness","Yes",289
+"Forest_owner","No",1013
+"Forest_owner","Yes",74
+"Social_proximity_to_owner","Don`t know",117
+"Social_proximity_to_owner","No",725
+"Social_proximity_to_owner","Yes",245
+"Environmental_profession","No related profession",991
+"Environmental_profession","Related profession",96
+"Environmental_organisation","Member",156
+"Environmental_organisation","Not a member",931

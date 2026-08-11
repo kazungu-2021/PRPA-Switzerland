@@ -1,0 +1,33 @@
+# ============================================================
+# Files excluded from the public PRPA Switzerland repository
+# ============================================================
+
+# Respondent-level and raw survey data
+01_raw_data/
+02_raw_data/
+03_clean_data/
+*.rds
+*.RData
+*.rda
+
+# R session/history files
+.Rhistory
+.Ruserdata
+
+# RStudio internal files
+.Rproj.user/
+
+# Temporary and backup files
+*.tmp
+*.temp
+*~
+*.bak
+
+# Microsoft Office temporary files
+~$*.docx
+~$*.xlsx
+
+# Operating-system files
+.DS_Store
+Thumbs.db
+desktop.ini

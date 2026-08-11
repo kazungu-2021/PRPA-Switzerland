@@ -1,0 +1,215 @@
+---
+title: "README"
+output: html_document
+date: "2026-08-11"
+---
+
+
+# Public Forest Restoration Priorities in Switzerland
+
+## Overview
+
+This repository contains the reproducible R code and anonymised aggregated data accompanying the manuscript:
+
+**Public Forest Restoration Priorities in Switzerland: Introducing the Perceived Forest Restoration Priority Analysis (PRPA) Framework**
+
+The study examines public priorities for forest restoration in Switzerland using the **Perceived Forest Restoration Priority Analysis (PRPA)** framework.
+
+The PRPA integrates four complementary dimensions of public perceptions:
+
+1. perceived importance of forest ecosystem services;
+2. perceived implementation of forest restoration practices;
+3. expected outcomes of forest restoration; and
+4. public support for forest restoration.
+
+Data were collected in April 2025 through a national online panel survey of adults aged 18 years and above in Switzerland. More than 1,000 respondents completed the survey.
+
+This repository provides the analytical code, selected analytical outputs, and anonymised aggregated data supporting the results reported in the manuscript. Respondent-level survey data are not publicly included.
+
+---
+
+## Repository structure
+
+```text
+PRPA_Switzerland/
+│
+├── PRPA_Switzerland_reproducible_analysis.R
+├── README.md
+│
+├── data_public/
+│   ├── PRPA_ecosystem_services_aggregated.csv
+│   ├── PRPA_restoration_implementation_aggregated.csv
+│   ├── PRPA_expected_outcomes_aggregated.csv
+│   └── PRPA_public_support_aggregated.csv
+│
+└── 04_outputs/
+    ├── tables/
+    ├── figures/
+    └── diagnostics/
+```
+
+The respondent-level datasets required to reproduce analyses based on individual observations are not included in the public repository.
+
+---
+
+## Reproducible analysis
+
+The analytical workflow is contained in:
+
+`PRPA_Switzerland_reproducible_analysis.R`
+
+The script implements the analyses used in the manuscript, including:
+
+- preparation of the final analysis dataset;
+- descriptive statistics;
+- reliability assessment of the PRPA dimensions;
+- ranking of forest ecosystem services, restoration practices, expected restoration outcomes, and restoration support;
+- generation of manuscript Figures 2–5;
+- construction of composite PRPA indices;
+- analysis of demographic and experiential explanatory variables;
+- statistical assumption checks and diagnostics;
+- parametric inferential analyses;
+- Benjamini–Hochberg false discovery rate correction;
+- non-parametric sensitivity analyses;
+- correlation analyses; and
+- generation of anonymised aggregated datasets for public sharing.
+
+The final script was tested from a fresh R session, and the resulting analytical outputs were checked against the results reported in the manuscript.
+
+---
+
+## Public aggregated data
+
+The `data_public/` directory contains four anonymised item-level aggregated datasets generated programmatically from the analysis data.
+
+### 1. PRPA_ecosystem_services_aggregated.csv
+
+Contains aggregated results for the **perceived importance of forest ecosystem services**.
+
+The file provides item-level valid sample sizes, means, standard deviations, and percentages across the response categories used in the analysis.
+
+### 2. PRPA_restoration_implementation_aggregated.csv
+
+Contains aggregated results for **perceived implementation of forest restoration practices**.
+
+The file provides item-level valid sample sizes, means, standard deviations, and response-category percentages.
+
+### 3. PRPA_expected_outcomes_aggregated.csv
+
+Contains aggregated results for **expected outcomes of forest restoration**.
+
+The file provides item-level valid sample sizes, means, standard deviations, and response-category percentages.
+
+### 4. PRPA_public_support_aggregated.csv
+
+Contains aggregated results for **public support for forest restoration**.
+
+The file provides item-level valid sample sizes, means, standard deviations, and response-category percentages.
+
+These datasets contain aggregated statistics only and do not contain respondent-level observations or direct personal identifiers.
+
+---
+
+## Respondent-level data
+
+The respondent-level survey data used for the statistical analyses are not publicly deposited in this repository.
+
+The public aggregated datasets are provided to support transparency and verification of the principal descriptive findings while respecting the data-protection and access conditions governing the original survey data.
+
+Requests concerning access to the underlying respondent-level data may be directed to the corresponding author and will be considered subject to applicable institutional and data-protection requirements.
+
+---
+
+## Running the analysis
+
+The analysis was conducted in **R**.
+
+The script uses relative file paths and should be run from the root directory of the project/repository. No computer-specific absolute paths are required.
+
+For authorised users with access to the respondent-level data, the main cleaned dataset should be placed locally at:
+
+```text
+03_clean_data/CH_SwissStudy_clean.rds
+```
+
+The complete analytical workflow can then be run using:
+
+```r
+source("PRPA_Switzerland_reproducible_analysis.R")
+```
+
+The script generates the required analysis dataset, statistical outputs, figures, diagnostics, and public aggregated datasets.
+
+Because the respondent-level data are not publicly distributed, analyses requiring individual observations cannot be reproduced from the four public aggregated datasets alone.
+
+---
+
+## Analytical outputs
+
+The reproducible workflow generates analytical outputs in `04_outputs/`, including:
+
+- descriptive and ranking tables;
+- reliability statistics;
+- inferential test results;
+- effect-size estimates;
+- false-discovery-rate-adjusted results;
+- non-parametric sensitivity analyses;
+- diagnostic summaries;
+- correlation results; and
+- manuscript Figures 2–5.
+
+The outputs are generated programmatically and should not be edited manually.
+
+---
+
+## Software and packages
+
+The analysis was conducted in R.
+
+The required packages are loaded by the reproducible analysis script. Exact information on the R environment and package versions used for the final analysis is recorded in the session information generated by the script.
+
+This allows the computational environment used for the reported analyses to be documented alongside the analytical outputs.
+
+---
+
+## Reproducibility verification
+
+The final analytical script was run from beginning to end in a fresh R session.
+
+The regenerated results were compared with the numerical results and outputs reported in the manuscript and were found to match.
+
+The four public aggregated datasets are generated at the end of the same analytical workflow, ensuring that they are derived directly from the analysis data rather than manually transcribed from manuscript tables or figures.
+
+---
+
+## Data protection
+
+The repository does not publicly distribute respondent-level survey records.
+
+Only anonymised aggregated summaries are provided in the `data_public/` directory. Users of the repository should not interpret these aggregated files as containing the complete underlying survey dataset.
+
+---
+
+## Citation
+
+If you use the PRPA framework, analytical code, or accompanying aggregated data, please cite the associated article:
+
+**Kazungu, M. et al.** *Public Forest Restoration Priorities in Switzerland: Introducing the Perceived Forest Restoration Priority Analysis (PRPA) Framework.*
+
+Full journal citation and DOI will be added following publication.
+
+---
+
+## Funding
+
+This study was funded by the **Swiss Federal Office for the Environment (FOEN/BAFU)**.
+
+---
+
+## Contact
+
+**Moses Kazungu, PhD**  
+Swiss Federal Institute for Forest, Snow and Landscape Research WSL
+
+For questions concerning the analysis, data, or PRPA framework, please contact the corresponding author using the contact information provided in the associated publication.
+

@@ -1,0 +1,17 @@
+Variable,Item,Valid_n,Mean,SD,Significantly_reduces_percent,Moderately_reduces_percent,No_significant_impact_percent,Moderately_enhances_percent,Significantly_enhances_percent
+F17r1,Firewood,699,3.54,0.99,3.29,9.3,34.62,35.48,17.31
+F17r10,Temperature regulation,870,4.09,0.92,1.26,4.25,18.16,37.01,39.31
+F17r11,Fresh air,894,4.21,0.91,1.23,3.24,15.77,33.22,46.53
+F17r12,Clean water,821,4.09,0.89,0.73,3.9,19.61,36.78,38.98
+F17r13,Opportunities for hunting and fishing,688,3.4,1.05,4.65,11.34,40.7,25.73,17.59
+F17r14,Outdoor recreation opportunities,906,3.85,0.97,1.32,7.17,26.38,35.32,29.8
+F17r15,Social and family activities,890,3.86,0.93,0.79,5.62,29.55,35.28,28.76
+F17r16,Aesthetic views,914,3.96,0.94,0.88,4.92,26.37,33.48,34.35
+F17r2,Wood for timber,659,3.45,1.01,3.19,12.59,36.42,31.41,16.39
+F17r3,Animal fodder,794,3.84,1,2.14,7.05,25.57,35.64,29.6
+F17r4,Ornamental plants,792,3.58,1,3.28,7.83,36.24,32.45,20.2
+F17r5,Berries,794,3.77,0.88,1.01,5.42,30.48,41.31,21.79
+F17r6,Wild edible fruits,743,3.64,0.92,1.48,7.13,37.01,35.13,19.25
+F17r7,Mushrooms,781,3.8,0.95,1.54,6.66,27.78,38.54,25.48
+F17r8,Habitat for biodiversity,879,4.14,0.96,1.59,5.35,14.11,35.04,43.91
+F17r9,Forest beauty and aesthetics,908,4.1,0.95,1.32,4.3,19.27,33.04,42.07

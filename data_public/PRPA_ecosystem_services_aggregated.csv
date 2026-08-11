@@ -1,0 +1,9 @@
+Variable,Item,Valid_n,Mean,SD,Very_low_percent,Low_percent,Moderate_percent,High_percent,Very_high_percent
+F5r1,Temperature regulation,1087,8.35,1.98,1.47,2.94,12.14,27.05,56.39
+F5r2,Air purification,1087,8.96,1.63,0.55,1.66,7.73,16.28,73.78
+F5r3,Water purification,1087,8.21,1.98,1.38,2.85,14.26,29.62,51.89
+F5r4,Protection against natural hazards,1087,8.35,1.88,0.83,2.58,13.71,27.05,55.84
+F5r5,Wood production,1087,7.48,2.22,3.4,5.7,20.88,33.67,36.34
+F5r6,"Food, medicinal plants and ornamental products",1087,7.13,2.35,3.96,9.2,24.01,30.17,32.66
+F5r7,Leisure and recreation,1087,8.46,1.84,0.83,2.85,10.4,27.87,58.05
+F5r8,Habitat for biodiversity,1087,8.9,1.68,0.64,1.93,7.45,18.4,71.57

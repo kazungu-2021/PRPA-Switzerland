@@ -1,0 +1,19 @@
+﻿"Outcome","Explanatory_variable","Posthoc_test","Comparison","Difference","CI_lower","CI_upper","p_adjusted"
+"Perceived importance of ecosystem services","Educational attainment","Games-Howell","School-level or other education vs Professional/vocational training",0.4761935245248665,0.08200878765496927,0.8703782613947637,0.013
+"Perceived importance of ecosystem services","Educational attainment","Games-Howell","School-level or other education vs University",0.31861124232404414,-0.0848546731770301,0.7220771578251184,0.151
+"Perceived importance of ecosystem services","Educational attainment","Games-Howell","Professional/vocational training vs University",-0.15758228220082238,-0.366590841580445,0.05142627717880027,0.18
+"Perceived importance of ecosystem services","Frequency of forest visits","Tukey HSD","Monthly-Less than monthly",0.05745680870986547,-0.20386700726874574,0.3187806246884767,0.8635520536034361
+"Perceived importance of ecosystem services","Frequency of forest visits","Tukey HSD","Weekly or more often-Less than monthly",0.384076876573312,0.1189693032148546,0.6491844499317694,0.0020157460835785734
+"Perceived importance of ecosystem services","Frequency of forest visits","Tukey HSD","Weekly or more often-Monthly",0.32662006786344655,0.09850147788039282,0.5547386578465003,0.002321499993506393
+"Public support for restoration","Frequency of forest visits","Tukey HSD","Monthly-Less than monthly",0.2933303255883888,0.15006293483496633,0.4365977163418112,5.271890404223711e-6
+"Public support for restoration","Frequency of forest visits","Tukey HSD","Weekly or more often-Less than monthly",0.5660926509822941,0.4208656544760998,0.7113196474884884,0
+"Public support for restoration","Frequency of forest visits","Tukey HSD","Weekly or more often-Monthly",0.2727623253939053,0.14784934287691012,0.39767530791090056,1.0560126599834518e-6
+"Public support for restoration","Social proximity to forest ownership","Tukey HSD","No-Yes",-0.11730210040846645,-0.25508660610818257,0.020482405291249645,0.11314871372885094
+"Public support for restoration","Social proximity to forest ownership","Tukey HSD","Don`t know-Yes",-0.29093457386533217,-0.5010672076542492,-0.0808019400764152,0.003413990454240734
+"Public support for restoration","Social proximity to forest ownership","Tukey HSD","Don`t know-No",-0.17363247345686572,-0.36010523651764115,0.012840289603909705,0.07413833608303866
+"Public support for restoration","Travel time to forest","Tukey HSD","10–30 minutes-Under 10 minutes",0.03833530788976258,-0.08103895505628524,0.1577095708358104,0.7314551899684381
+"Public support for restoration","Travel time to forest","Tukey HSD","More than 30 minutes-Under 10 minutes",0.2148196553536339,0.012331598002075284,0.4173077127051925,0.03451447574718014
+"Public support for restoration","Travel time to forest","Tukey HSD","More than 30 minutes-10–30 minutes",0.17648434746387132,-0.02466118300184436,0.377629877929587,0.09895622155263162
+"Perceived restoration implementation","Frequency of forest visits","Tukey HSD","Monthly-Less than monthly",0.096757232233597,-0.0595938631654124,0.2531083276326064,0.31435591951953035
+"Perceived restoration implementation","Frequency of forest visits","Tukey HSD","Weekly or more often-Less than monthly",0.16834430736707562,0.012308940505412813,0.3243796742287384,0.030825332713635967
+"Perceived restoration implementation","Frequency of forest visits","Tukey HSD","Weekly or more often-Monthly",0.07158707513347862,-0.05790031629439263,0.20107446656134986,0.39668504639653823
